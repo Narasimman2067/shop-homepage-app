@@ -1,38 +1,150 @@
 .App {
+
+  padding-left: 10%;
+  padding-top: 2%; 
+  background-color: aquamarine;
+  height:auto;
+  gap:1em;
+  display:grid;
+  grid-template-columns:repeat(2,800px);
+  overflow:hidden;
+  
+}
+
+
+
+.numsize{
+ 
+  border: 2px solid black;
+  width:20.5vw;
+  height:auto;
+  background-color:whitesmoke;
+
+  }
+p{
+  padding-left: 17%;
+  padding-right: 10%;
   text-align: center;
+  background-color:grey;
+  margin-top: 0%;
+  font-size: 25px;
+  font-weight: lighter;
+  padding-top: 40%;
+  width: 15vw;
+  height: 20vh;
+  opacity: 0.6;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+ /* padding-left:20%; */
+ text-align: center;
+  font-size:25px;
+}
+button{
+  margin-left:35%;
+  margin-bottom: 10px;
+  padding:3% ;
+  border-radius: 5px;
+  background-color: blue;
+  color: azure;
+  text-transform: capitalize;
+  box-shadow: 2px 3px 8px black;
+ }
+
+h3{
+text-align: center;
+font-weight:lighter ;
+}
+.s{
+  text-decoration: line-through;
+  font-weight: lighter;
+  opacity: 0.6;
+}
+.star{
+ padding-left:33%;
+}
+.switch{
+  padding: 2%;
+  margin-top: 17%;
+  background-color: blue;
+  box-shadow: 2px 3px 8px black;
+}
+.switch:hover{
+  background-color: brown;
+  font-weight:bold;
+  cursor: pointer;
+}
+button:hover{
+  background-color: brown;
+  font-weight:bold;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+
+
+
+
+
+@media (max-width:900px){
+  .App {
+   
+    padding: 5%;
+    background-color: aquamarine;
+    height:auto;
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 1rem;
+    overflow-x: hidden;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  .numsize{
+     
+    border: 2px solid black;
+    width: 34vw;
+   
+    padding-right: 37%;
+    height: auto;
+    background-color:white;
+    margin-top: 0%;
+    
+    }
+    p{
+   
+   padding-left: 7%;
+     /* text-align: center; */
+   padding-top: 40%;
+   width: 36.5vw;
+     height: 15vh;
+     font-weight: light;
+     
+   }
+  h1{
+    padding-left: 15%;
+    text-align: center;
+    font-size:20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
-  to {
-    transform: rotate(360deg);
+  
+  button{
+   margin-left:38%;
+   margin-bottom: 10px;
+   padding:2% ;
+   border-radius: 5px;
+   background-color: blue;
+   color: azure;
+   text-transform: capitalize;
   }
-}
+  h3{
+    padding-left: 15%;
+    text-align: center;
+    font-weight:lighter ;
+    }
+    
+    }
+
